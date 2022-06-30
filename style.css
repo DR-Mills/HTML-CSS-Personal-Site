@@ -1,0 +1,137 @@
+body{   
+    background-color: black;
+    color: white;     
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.fixed-header, .fixed-footer {
+    width: 100%;
+    position: fixed;       
+    z-index:1; 
+    background: white;
+    padding: 10px 0;
+    color: white;
+    text-transform: uppercase;
+    font-size:1.5em;
+}
+
+.fixed-header {
+    top: 0;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.fixed-footer {
+    bottom: 0;
+    text-align: center;
+}
+
+.paddingPlease {
+    padding-top: 2em;
+}
+
+p {
+    font-size: medium;
+}
+
+.mainContent {
+    overflow-y: scroll;
+    overflow: hidden;
+}
+
+.center-me-md, .center-me-md a {
+    text-align: center;
+    font-size: 1.5em;
+    color: dodgerblue;
+}
+
+
+.overlay {
+    -webkit-filter:grayscale(100%);
+    filter:grayscale(100%);
+}
+
+img:hover {
+    -webkit-filter:grayscale(0);
+    filter:none;
+}
+
+.roundImg {
+    border-radius: 50%;
+    max-width: 80%;
+}
+
+.title {
+text-align: center;
+text-transform: uppercase;
+}
+
+.col-md-4 h2 {
+    text-align: center;
+}
+
+.hiddenText div {
+    position: absolute;
+    top:30%;
+    right: 0;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-size:larger;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.hiddenText:hover div {
+    width: 80%;
+    padding: 8px;
+    visibility: visible;
+    opacity: 0.8; 
+}
+
+.blackText {
+    color: black;
+    font-weight: 800;
+}
+
+.whiteText {
+    color: white;
+}
+
+.hero {
+    background: url(img/myface.jpg) right bottom no-repeat;
+    background-size: contain;
+    padding:100px 0 100px 0;
+    height: auto;
+    background-color: white;
+    color: black;
+}
+
+.hero h1 {
+	font-size: 100px;
+	letter-spacing: -8px;
+	margin: 0;
+	font-weight: 600;
+	line-height: 95px;
+	text-transform: uppercase;
+}
+
+.hero h3 {
+	font-size: 20px;
+    font-weight: 700;
+	margin:0;
+	padding:0;
+	opacity:0.5;
+	color: dodgerblue;
+	letter-spacing: 18px;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+
+.veryLarge {
+    font-size: 120px;
+}
